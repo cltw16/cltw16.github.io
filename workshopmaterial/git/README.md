@@ -1,6 +1,6 @@
 # 1 Einführung in die Kommandozeile
 
-Git ist ein Versionierungssystem für Dateien. Es wird benutzt, um Software im Team zu erstellen. Im folgenden benutzen wir es zusammen, um eine Webseite zu gestalten. Die Webseite ist schon auf [github](http://niccokunzmann.github.io/chemitzer-linuxtage/) aber ohne Inhalt.
+Git ist ein Versionierungssystem für Dateien. Es wird benutzt, um Software im Team zu erstellen. Im folgenden benutzen wir es zusammen, um eine Webseite zu gestalten. Die Webseite ist schon auf [github](http://niccokunzmann.github.io/chemitzer-linuxtage/), aber ohne Inhalt.
 
 ## 1.1 Die Kommandozeile
 
@@ -47,7 +47,7 @@ Um herauszufinden, in welchem Ordner die Kommandozeile ist, benutze
 
     /home/coderdojo
 
-Den Ordner, in diesem Fall `/home/coderdojo` kannst du auch mit dem Dateibrowser öffnen. `pwd` heißt "print working directory" = "drucke Arbeits-Verzeichnis"
+Den Ordner, in diesem Fall `/home/coderdojo`, kannst du auch mit dem Dateibrowser öffnen. `pwd` heißt "print working directory" = "drucke Arbeitsverzeichnis"
 
 Wenn du jetzt alle Inhalte anzeigst, mit `ls`, dann ist ein neuer Ordner dazugekommen:
 
@@ -76,7 +76,7 @@ Oder, damit firefox nicht die Kommandozeile blockiert, starte es im Hintergrund:
 
     $ firefox index.html &
 
-Du kannst die Webseite immer neuladen, indem du die "F5"-Tastebenutzt.
+Du kannst die Webseite immer neuladen, indem du die "F5"-Taste benutzt.
 
 # 2 Die Webseite
 
@@ -188,9 +188,9 @@ Hier sind ein paar Tags zum ausprobieren:
 
 - `div` **Abschnitte**: Ein Seite enhält z.B. die Abschnitte "Menu", "Inhalt", "Fußzeile". In das class-Attribut kommt der Name, der später zum Styling benutzt wird.
 
-        <div class="Inhalt">Inhalt der Seite</div>
+        <div class="inhalt">Inhalt der Seite</div>
 
-    <div class="Inhalt">Inhalt der Seite</div>
+    <div class="inhalt">Inhalt der Seite</div>
 
 Weitere Tags findest du hier: [w3schools.com/tags](http://www.w3schools.com/tags/).
 

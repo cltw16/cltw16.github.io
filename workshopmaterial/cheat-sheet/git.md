@@ -2,7 +2,7 @@ Kommandozeile
 =============
 
 Alle Befehle können `--help`  
-`man <befehl>` gibt eine Beschreibung/Dokumentation des Befehls
+`man <befehl>` gibt eine Beschreibung/Dokumentation(Manual) des Befehls aus
 `ls` - Auflisten der Ordnerinhalte "list"  
 `pwd` - "Print Working Directory" = "Drucke Arbeitsverzeichnis"  
 `cd` - "Change Directory" = "Wechsele Verzeichnis"  
@@ -16,7 +16,7 @@ Alle Befehle können `--help`
 
 Git
 ===
-
+TODO: Nutzername & email
 `git --help` - alle git-Befehle anzeigen. Mach dich damit vertraut   
 `git commit --help` - Hilfe zu `commit` anzeigen  
 `git add index.html` - index.html dem INDEX hinzufügen  
@@ -28,9 +28,9 @@ Git
 `git push` - ins Quellrepository hochladen  
 `git push origin master` - in das Repository `origin` in den Branch `master` hochladen    
 `git pull` - vom Quellrepository Änderungen runterladen  
-`git branch patch-1` - den Branch `patch-1` erstellen. `master` heißt der Standartbranch
+`git checkout -b patch-1` - den Branch `patch-1` erstellen und zu diesem branch wechseln. `master` heißt der Standardbranch
 `git checkout patch-1` - in den Branch `patch-1` wechseln  
-`git branch` - alle Branches anzeigen und auf welchem man ist
+`git branch -a` - alle Branches anzeigen und auf welchem man ist
 `git merge master` - den Branch `master` in den momentanen Branch einpflegen  
 **Mergekonflike beheben**  
 1. `git status` - Zustand, wie ihn git sieht, anzeigen  

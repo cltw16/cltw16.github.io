@@ -2,7 +2,7 @@ Kommandozeile
 =============
 
 Alle Befehle können `--help`  
-`man <befehl>` gibt eine Beschreibung/Dokumentation(Manual) des Befehls aus
+`man <befehl>` gibt eine Beschreibung/Dokumentation(Manual) des Befehls aus  
 `ls` - Auflisten der Ordnerinhalte "list"  
 `pwd` - "Print Working Directory" = "Drucke Arbeitsverzeichnis"  
 `cd` - "Change Directory" = "Wechsele Verzeichnis"  
@@ -30,7 +30,7 @@ TODO: Nutzername & email
 `git pull` - vom Quellrepository Änderungen runterladen  
 `git checkout -b patch-1` - den Branch `patch-1` erstellen und zu diesem branch wechseln. `master` heißt der Standardbranch
 `git checkout patch-1` - in den Branch `patch-1` wechseln  
-`git branch -a` - alle Branches anzeigen und auf welchem man ist
+`git branch -a` - alle Branches anzeigen und auf welchem man ist  
 `git merge master` - den Branch `master` in den momentanen Branch einpflegen  
 **Mergekonflike beheben**  
 1. `git status` - Zustand, wie ihn git sieht, anzeigen  

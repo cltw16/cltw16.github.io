@@ -2,13 +2,14 @@
 
 In diesem Tutorial lernst du, Webseiten zu bauen und im Internet zu veröffentlichen. Es gibt [Cheat Sheets](cheat-sheet), die noch mehr enthaltne, also hier steht.
 
-# 1 Einführung in die Kommandozeile
+## 1 Einführung in die Kommandozeile
 
 Git ist ein Versionierungssystem für Dateien. Es wird benutzt, um Software im Team zu erstellen. Im folgenden benutzen wir es zusammen, um eine Webseite zu gestalten. Die Webseite ist schon auf [github](http://niccokunzmann.github.io/chemitzer-linuxtage/), aber ohne Inhalt.
 
-## 1.1 Die Kommandozeile
+### 1.1 Die Kommandozeile
 
-Öffne ein "Terminal" ![](terminal.png)
+Öffne ein "Terminal"   
+![](terminal.png)
 
 Alles was hinter einem `$` steht, ist ein Befehl, den du eintippen musst. Versuche es:
 
@@ -28,7 +29,7 @@ Ich schreibe es als
 
 `ls` heißt "liste auf".
 
-## 1.2 Eine lokale Kopie der Webseite holen
+### 1.2 Eine lokale Kopie der Webseite holen
 
 Der Befehl in folgenden Zeile erzeugt eine lokale Kopie der [Webseite](https://github.com/cltw16/cltw16.github.io):
 
@@ -43,7 +44,7 @@ Der Befehl in folgenden Zeile erzeugt eine lokale Kopie der [Webseite](https://g
     
 Fertig, nun hast du die Webseite hochgeladen und sie sollte bald unter [cltw16.github.io](https://cltw16.github.io) sichtbar sein.
 
-## 1.3 In der Kommandozeile navigieren
+### 1.3 In der Kommandozeile navigieren
 
 Um herauszufinden, in welchem Ordner die Kommandozeile ist, benutze
 
@@ -70,7 +71,7 @@ Der Inhalt sieht z.B. so aus:
 
     index.css  index.html
 
-## 1.4 Die Webseite anzeigen
+### 1.4 Die Webseite anzeigen
 
 Um die Webseite anzuzeigen benutze den Firefox Webbrowser:
 
@@ -82,11 +83,11 @@ Oder, damit firefox nicht die Kommandozeile blockiert, starte es im Hintergrund:
 
 Du kannst die Webseite immer neuladen, indem du die "F5"-Taste benutzt.
 
-# 2 Die Webseite
+## 2 Die Webseite
 
 Jetzt sehen wir die Webseite lokal und auf github. In den folgenden Abschnitten wirst du sie verändern.
 
-# 2.1 Die Webseite verändern
+### 2.1 Die Webseite verändern
 
 Webseiten werden in HTML = "Hyper Text Markup Language" geschrieben. Das ist einfacher Text, den man mit einem beliebigen Texteditor editieren kann. Ich benutze "gedit". "Mousepad" oder "Sublime Text" und viele mehr kann man dazu benutzen.
 
@@ -122,7 +123,7 @@ Dafür gibt es Regeln:
           Das ist ein Absatz
         </p>
 
-## 2.2 Webseitenstruktur
+### 2.2 Webseitenstruktur
 
 So sieht z.B. eine leere Webseite aus:
 
@@ -140,7 +141,7 @@ Alles, was sich zwischen den `body`-tags befindet, ist Inhalt der Webseite.
 Z.B. ist `<title>Chemnizter Linuxtage 2016</title>` der Titel der Webseite. `<h1>Chemnitzer Linuxtage 2016</h1>` ist dann die große Überschrift in dem Inhaltsbereich. 
 
 
-## 2.3 Tags für den Inhalt
+### 2.3 Tags für den Inhalt
 
 Erstelle eine leere Webseite.
 Hier sind ein paar Tags zum ausprobieren:
@@ -196,13 +197,13 @@ Hier sind ein paar Tags zum ausprobieren:
 
     <div class="inhalt">Inhalt der Seite</div>
 
-Weitere Tags findest du hier: [w3schools.com/tags](http://www.w3schools.com/tags/).
+Weitere Tags findest du hier: [w3schools.com/tags](http://www.w3schools.com/tags/) und im [Cheat sheet](cheat-sheet).
 
-# 3 Git - Mit Veränderungen arbeiten
+## 3 Git - Mit Veränderungen arbeiten
 
 Die veränderungen, die du an der Webseite gemacht hast, sollen auf github erscheinen. Darum geht es jetzt.
 
-## 3.1 Änderungen Speichern und verbreiten
+### 3.1 Änderungen Speichern und verbreiten
 
 Um die Änderungen zu speichern, muss Folgendes verstanden werden:
 
@@ -365,11 +366,11 @@ Und mit `git push` geht es wieder zurück zu Schritt 3.4.
 
 Jetzt hast du alle Basics für die Kollaboration mit git gelernt. Wenn du Fehler hier im Tutorial findest, kannst du sie beheben und mit git hochladen.
 
-# 4 Weiterführende Links
+## 4 Weiterführende Links
 
-Nachdem du jetzt die wichtigsten Fälle der Kollaboration mit Git durchgegangen bist, gibt es viele Möglichkeiten, weiterzumachen.
+Nachdem du jetzt die wichtigsten Fälle der Kollaboration mit Git durchgegangen bist, gibt es viele Möglichkeiten, weiterzumachen. Es gitb auch ein [Cheat Sheet](cheat-sheet) mit eine Übersicht zu Befehlen.
 
-## 4.1 Die Webseite stylen
+### 4.1 Die Webseite stylen
 
 Was auf die Webseite kommt, liegt an euch. Es gibt ein [Tutorial von der OpentechSchool](http://opentechschool.github.io/html-css-beginners/de/index.html), das in Webseiten einführt. Mache die ersten Kapitel und du verstehst CSS.
 
@@ -381,15 +382,15 @@ Und dort findest du den Style, den du zur css-Datei hinzufügen kannst:
 
 ![](css-style.png)
 
-## 4.2 Branches
+### 4.2 Branches
 
 Git erlaubt es dir, an mehreren Aufgaben gleichzeitig zu arbeiten. Dazu verwendet man "branches" = "Zweige", die man auch so mergen kann, wie andere Repositories. Dazu könnt ihr [hier](https://rogerdudler.github.io/git-guide/index.de.html) mehr lesen.
 
-## 4.3 Webseiten auf github
+### 4.3 Webseiten auf github
 
 Auf github kan man seine Webseiten publizieren. z.B. kann man sie auf in ein Repository packen, das dann automatisch angezeigt wird. Jedes Repository kann eine solche Webseite haben, in einem Branch namens "gh-pages" (NUTZERNAME.github.io/REPOSITORY). Jeder Benutzer kann eine Webseite haben, im Branch "master" im Repository NUTZERNAME.github.io (die Variante, die wir verwenden). Mehr darüber zu lesen gibt es [hier](https://pages.github.com/).
 
-## 4.4 Javascript
+### 4.4 Javascript
 
 Du kannst Webseiten zu vollen Programmen machen, indem du JavaScript benutzt. Dazu gibt es viele Tutorials.
 

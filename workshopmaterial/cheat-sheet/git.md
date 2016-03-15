@@ -12,7 +12,7 @@ Alle Befehle können `--help`
 `firefox index.html &` - mit Firefox die Datei `index.html` im Hintergrund starten (`&`)  
 `gedit index.html &` - index.html mit gedit editieren.  
 `nano index.html` - `index.html` in der Kommandozeile editieren mit nano  
-`vi index.html` - `index.html` in der Kommandozeile editieren mit vim  
+`vi index.html` - `index.html` in der Kommandozeile editieren mit vi  
 
 Git
 ===

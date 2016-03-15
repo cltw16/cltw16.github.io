@@ -200,7 +200,7 @@ Die veränderungen, die du an der Webseite gemacht hast, sollen auf github ersch
 
 ## 3.1 Änderungen Speichern und verbreiten
 
-Um die Änderungen zu speichern, muss folgendes verstanden werden:
+Um die Änderungen zu speichern, muss Folgendes verstanden werden:
 
 > Dein lokales Repository besteht aus drei "Instanzen", die von git verwaltet werden. Die erste ist deine **Arbeitskopie**, welche die echten Dateien enthält. Die zweite ist der **Index**, welcher als Zwischenstufe agiert und zu guter Letzt noch der **HEAD**, der auf deinen letzten Commit zeigt. 
 

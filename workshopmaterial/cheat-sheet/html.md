@@ -29,10 +29,9 @@ Einrückungen sind wichtig für Menschen! Beispielwebseite:
 `<div>  </div>` - darin steht ein Abschnitt. Divs eignen sich gut zum Stylen, siehe [CSS](css.md).  
 `<p>  </p>` - darin steht ein Absatz  
 `<br />` - ein Zeilenumbruch  
-`Bin<wbr />de<wbr />strich` - Bindestriche, wenn das Wort "Bindestrich" umgebrochen werden muss wegen Platz  
 `<a href="https://github.com/cltw16/cltw16.github.io">Github Repository</a>` - ein Link auf eine entfernte Webseite  
-`<a href="/index.html">Home</a>` - ein Link auf die unterste `index.html`-Datei (man beachte den `/` am Anfang)  
-`<a href="test.html">Test</a>` - ein Link auf eine `test.html`-Datei im selben Ordner (kein `/`).  
+`<a href="/index.html">Home</a>` - ein absoluter Pfad zu einer Datei `index.html` und ein Link zu dieser(man beachte den `/` am Anfang)  
+`<a href="test.html">Test</a>` - ein relativer Pfad zu einer Datei `test.png` im selben Ordner und ein Link zu dieser Datei (kein `/`).  
 `<img src="test.png" />` - das Bild `test.png`, hier auch im selben Ordner  
 
 Es gibt viele Unicodezeichen: [tinyurl.com/cyztmr](http://tinyurl.com/cyztmr)

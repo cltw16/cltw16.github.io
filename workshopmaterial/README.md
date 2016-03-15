@@ -1,3 +1,7 @@
+# Webseiten veröffentlichen mit Git
+
+In diesem Tutorial lernst du, Webseiten zu bauen und im Internet zu veröffentlichen. Es gibt [Cheat Sheets](cheat-sheet), die noch mehr enthaltne, also hier steht.
+
 # 1 Einführung in die Kommandozeile
 
 Git ist ein Versionierungssystem für Dateien. Es wird benutzt, um Software im Team zu erstellen. Im folgenden benutzen wir es zusammen, um eine Webseite zu gestalten. Die Webseite ist schon auf [github](http://niccokunzmann.github.io/chemitzer-linuxtage/), aber ohne Inhalt.

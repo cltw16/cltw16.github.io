@@ -2,6 +2,7 @@ CSS
 ===
 
 **Elemente auswählen**  
+
 - `<div class="content">` - Jedes Element, `div`, `h1`, `a`, `p`, usw. kann eine Klasse haben. Hier hat ein div Element eine Klasse "content". Elemente, die die selbe Klasse haben, nutzen den gleichen CSS-Style, der hinter der Klasse liegt.  
 Schriftfarbe auf blau und Schriftgröße auf 20 Pixel für den Inhalt aller "content" setzen:
 
@@ -15,7 +16,7 @@ Schriftfarbe auf blau und Schriftgröße auf 20 Pixel für den Inhalt aller "con
 Schriftart aller Hauptüberschriften auf "Roboto" setzen, wenn es "Roboto" nicht gibt, auf "Arial": `h1 { font-family: Roboto,Arial; }`
 - Mouseover-effekte wie, wenn die Maus drüber ist die SFarbe ändern `a:hover { color: darkblue; }`  
 
-**Eigenschaften**
+**Eigenschaften**  
 `font-size: 15px;` - Schriftgröße auf 15 Pixel setzen  
 `color: #666A73;` - Schriftfarbe auf `#666A73` setzen  
 `letter-spacing: .5px;` - Abstand der Buchstaben auf 0,5 Pixel setzen  
@@ -25,6 +26,6 @@ Schriftart aller Hauptüberschriften auf "Roboto" setzen, wenn es "Roboto" nicht
 `margin: 10px;` - Abstand gräßer machen (ohne Hintergrund)  
 `margin-right`, `margin-left`, `margin-top`, `margin-bottom` - spezielle Ränder, analog bei padding  
 **Längenangaben**  
-Es gibt z.B. `px`(Pixel), `%`(Anteil am Maximum), `em`(*Schriftgröße), [tinyurl.com/ctyzh9z](http://tinyurl.com/ctyzh9z)  
+`px`(Pixel), `%`(Anteil am Maximum), `em`(*Schriftgröße), [tinyurl.com/ctyzh9z](http://tinyurl.com/ctyzh9z)  
 **Von anderen Webseiten abgucken**  
 Rechtsklick auf ein Element → Inspect Element → Inspector → Rules

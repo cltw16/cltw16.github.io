@@ -24,7 +24,7 @@ Einrückungen sind wichtig für Menschen! Beispielwebseite:
 `<script type="text/javascript" src="trallala.js" crossorigin="anonymous"></script>` - die Datei `trallala.js` als JavaScript einbinden  
 `<title>  </title>` - darin steht der Titel der Webseite  
 **In body:**  
-`<h1>  </h1>` - darin stehen Überschriften (`h1`, `h2`, `h3`, `h4`)
+`<h1>  </h1>` - darin stehen Überschriften (`h1`, `h2`, `h3`, `h4`)  
 `<!--  -->` - darin stehen Kommentare für Programmierer, die nicht angezeigt werden  
 `<div>  </div>` - darin steht ein Abschnitt. Divs eignen sich gut zum Stylen, siehe [CSS](css.md).  
 `<p>  </p>` - darin steht ein Absatz  

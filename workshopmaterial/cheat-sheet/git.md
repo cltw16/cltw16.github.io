@@ -2,6 +2,7 @@ Kommandozeile
 =============
 
 Alle Befehle können `--help`  
+`man <befehl>` gibt eine Beschreibung/Dokumentation des Befehls
 `ls` - Auflisten der Ordnerinhalte "list"  
 `pwd` - "Print Working Directory" = "Drucke Arbeitsverzeichnis"  
 `cd` - "Change Directory" = "Wechsele Verzeichnis"  
